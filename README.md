@@ -16,6 +16,7 @@ An application to track MTG Commander games, deck progression, and stats
 - Card search
 - Notes on individual cards in a deck
 - Login / OAuth
+
 ## User Interface
 Look into similar apps. Design for mobile first.
 
