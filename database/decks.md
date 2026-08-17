@@ -4,3 +4,20 @@ It can be identified as either a chosen arbitrary nickname (such as "Amy's Green
 
 A Deck belongs to a Player.
 
+Will probably need one table to store historical versions of the decks, and one table for the most current version.
+
+```
+deck_id: UUID
+player_id: UUID
+name: STRING (64 character limit)
+featured_image: STRING (URL to Scryfall image or Scryfall card uuid)
+bracket_level: INTEGER (1 - 5)
+cards_list: REPEATED STRING / STRING[] (reference_ids in an array)
+commander: STRING (reference_id for card)
+notes: STRING[] (References to Notes objects)
+wins: INTEGER
+losses: INTEGER
+version: INTEGER
+update_timestamp: TIMESTAMP
+
+```

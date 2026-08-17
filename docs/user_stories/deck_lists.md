@@ -9,7 +9,7 @@ As a player, I want the ability to make quick edits to my deck list (by swapping
 
 As a player, I want to be able to import my deck list from an existing service or as a text-based list, so that I can quickly get my deck brought into Cluestone for use at the table.
 
-As a player, I want to see stats for my deck include mana curve, power / bracket level, color breakdown by cost and production, quantities of card types.
+As a player, I want to see stats for my deck including mana curve, power / bracket level, color breakdown by cost and production, quantities of card types.
 
 As a player, I want a quick way to be able to track performance at a deck level (wins and losses) after a game, so that I can capture that information without stressing about it. (Ideally this should be automatic when the game ends in the tracker)
 
