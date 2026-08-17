@@ -46,8 +46,6 @@ Cluestone is designed exclusively for Commander.
 
 Features should embrace the unique aspects of the format - including multiplayer gameplay, commanders, commander damage, deck identity, politics, and long-term deck evolution - instead of treating Commander as just another supported format.
 
----
-
 ## Connected Experiences
 
 Deck building, gameplay, and analytics should not exist as isolated features.
@@ -60,8 +58,6 @@ Examples include:
 * Deck revisions influencing future performance comparisons.
 * Card-level performance informing future deck changes.
 
----
-
 ## Open Ecosystem
 
 Commander players already use many excellent tools.
@@ -69,8 +65,6 @@ Commander players already use many excellent tools.
 Whenever possible, Cluestone should integrate with existing applications and services rather than requiring users to abandon their current workflow.
 
 The goal is to complement the Commander ecosystem, not replace it.
-
----
 
 ## Data With Purpose
 
@@ -84,19 +78,13 @@ The objective is not to accumulate data for its own sake, but to provide meaning
 * Which opponents or archetypes create challenging matchups?
 * Which version of this deck has performed the best?
 
----
-
 ## Fast During Play
 
 The application should never become the focus of the table. Common actions should require as little interaction as possible. The best game-tracking interface is one that players barely notice.
 
----
-
 ## Local First
 
 Players should be able to use Cluestone without depending on an internet connection. Internet connectivity should enhance the experience rather than be a requirement. Synchronization should occur seamlessly whenever possible.
-
----
 
 ## Platform Native
 
@@ -107,11 +95,17 @@ Cluestone should feel at home on every supported platform. Rather than simply re
 * iPhone
 * iPad
 
----
-
 ## Iterative Improvement
 
 The application will evolve through real gameplay. Features should be informed by testing, player feedback, and observed behavior rather than assumptions alone. Users should be empowered to submit feedback and suggestions.
+
+## Player Agency
+
+Cluestone provides insight and recommendations, not prescriptions.
+
+Players remain in control of their decks and decisions.
+
+Analytics and AI should explain, suggest, and educate—not replace the player's judgment.
 
 ---
 
