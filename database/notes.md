@@ -2,7 +2,6 @@ A note is a property associated with a card in a given deck. It tells the story 
 
 ```
 note_id: STRING (32-bit UUID)
-deck_id: STRING (reference back to deck)
 card_id: STRING
 note: STRING (The actual user-entered note)
 ```

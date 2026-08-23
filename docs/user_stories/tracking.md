@@ -13,7 +13,7 @@ As a player, I want to be able to rewind through turns or rounds to see where th
 
 As a player, I want the ability to toggle whether commander damage is automatically synced with the life total, or not.
 
-As a player, I want to know whose turn it is, so I can keep track.
+As a player, I want to know whose turn it is at a glance, so I can keep track, and so that players at the table don't have to ask as frequently.
 
 As a player, I want the ability to choose my profile name and background image, to clearly distinguish myself from the other players. 
 
@@ -38,6 +38,8 @@ As a player, I want to know when the game is over and who won, so that I can cel
 As a player, I want to be able to open the app and select a game in progress that my profile is part of, even if that game was started on a different device, provided my profile is linked and the game is synced to the internet.
 
 As a player, I want to be able to track when I have multiple consecutive turns within the same round (i.e. progressing the turn without progressing to the next player).
+
+As a player, I want the option to hide or show the "plus" (+) and "minus" (-) buttons from player sections (All or nothing).
 
 ## Backlog / Feature Requests
 
