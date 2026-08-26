@@ -163,3 +163,17 @@ Cluestone succeeds when players can:
 Cluestone aims to become the primary companion application that Commander players open before shuffling their deck, keep nearby during every game, and return to afterward to understand how their decks continue to evolve.
 
 Rather than simply storing information, Cluestone should help players tell the story of every Commander deck they build.
+
+---
+
+# Reference Material
+
+## Magic: The Gathering's Comprehensive Rules
+This is an in-depth document detailing rules and specific interactions that happen within Magic in general. Here is the webpage which is a hub for the most up to date versions of the rules: https://magic.wizards.com/en/rules
+
+## Gatherer
+The Official Magic Card Database, containing up to date Oracle text and images.
+https://gatherer.wizards.com/
+
+## Scryfall
+A wonderful project created by a dedicated team of engineers, designers, and avid Magic players. Scryfall is the "Unofficial" but oft-used Database for Magic card reference, and has a robust API for quickly retrieving card details. This will be a major part of how Cluestone will reference card detail for deck lists.
