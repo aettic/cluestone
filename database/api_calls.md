@@ -1,13 +1,5 @@
 # API Calls
 
-### GET /color_identity
-Get the commander’s color identity and return it as an array of color codes (WUBRGC).
-Input: commander’s card reference_id
-Output: `CHAR[]`
-
-### GET /mana_curve
-Get the mana curve (JSON, broken down by mana value as the key and number of cards of that mana value as the value)
-
 ### GET /num_cards
 Get the number of cards in the deck
 Length of cards_list array
