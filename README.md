@@ -2,7 +2,7 @@
 
 > *Helping Commander players make better decisions before, during, and after every game.*
 
-![Cluestone Logo sketch](images/Cluestone_Logo.png)
+![Cluestone Logo sketch](images/cluestone-logo-white.png)
 
 ---
 
