@@ -32,4 +32,17 @@ Each player section should show the player's name and the deck's name.
 
 An eliminated player remains visible, but their section should clearly show that they are no longer active and their turn is skipped. The game-ending menu should also allow players to record a draw or abandon the game; these outcomes are excluded from statistics for now.
 
-## Deck Lists
+## Deck List
+The deck list page is entered after selecting a deck from the Home page. It contains three main sections: The header, the cards view, and the info pane.
+
+The **header** is a banner which stretches all the way across the top of the page, and contains a hamburger menu button, as well as the Name and color identity of the deck on the left side of the header. The right side of the header shows the Bracket level of the deck. Clicking the name or bracket level allow these values to be changed. Clicking the menu button opens a sidebar menu.
+
+The **cards view** is where you can see the entire deck at a glance. View options (adjustable in the menu) can show the cards in a text list, a solitaire-like stack view, or a grid of card images. After hovering or tapping on a card, it will be featured in the right-hand side info pane. The purpose of the cards view is to show each of the cards in the deck at a glance, and allow for sorting and filtering them (via the menu) for analysis' sake.
+
+The **info pane** shows a larger image of the featured card (defaults to the Commander, but will change when the user taps on or hovers over a card). Underneath the card image, it shows some deck information, as well as access to notes for the card, and the Analysis interface for the deck. The deck information presented in the info pane are the Mana Cost breakdown, Mana Production breakdown, Mana Curve, and win:loss ratio.
+
+## Home
+
+The home page is the landing page that users will see when first opening Cluestone. It contains two main rows of options: Decks and Games. The left-most option in each of these rows is a button to create a new Deck or Game. 
+
+The top left corner of the home page shows the Cluestone name and logo. The top right corner shows the user's profile icon. Clicking this icon opens a menu for profile options.
