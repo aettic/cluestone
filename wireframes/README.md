@@ -46,3 +46,34 @@ The **info pane** shows a larger image of the featured card (defaults to the Com
 The home page is the landing page that users will see when first opening Cluestone. It contains two main rows of options: Decks and Games. The left-most option in each of these rows is a button to create a new Deck or Game. 
 
 The top left corner of the home page shows the Cluestone name and logo. The top right corner shows the user's profile icon. Clicking this icon opens a menu for profile options.
+
+## Analysis
+
+Similar to the Deck List page in that it contains a header with the menu, color identity, deck name, and bracket information; as well as an info pane with the commander card(s), tags, mana curve, mana cost and production breakdown, and win:loss ratio. The main section of the page, however, is the analysis view itself. It contains a timeline of nodes which can be clicked on to expand and see more information.
+
+By default, the Analysis page will show summary lines for every event, chronologically. Selecting a Node from the timeline will navigate to that position and focus on only events from that node's date. Expanding a particular event will focus on that one.
+
+### Nodes
+
+**Deck Created**: Always the first node on the timeline, and shows the date that the deck was first created in Cluestone. 
+
+**Revisions**:
+- Numbered chronologically
+- Shows the changes made to the deck (changes to the 99, change to the commander, imports, etc.)
+- Selecting the node shows the complete revision diff (between itself and the previous version)
+- Even if multiple changes happened on a given date, they are grouped into the same node and revision diff, unless a game takes place in between them. e.g. I made a few swaps to my deck, then play a couple matches, and then decide to make a few more swaps. In this case, there would be three nodes: The first revision, the games (combined into one node), and the second revision.
+
+**Games**: Games are tracked on a date-basis, rather than as their each individual nodes. Clicking on a node with game wins/losses will show information for each game that took place on that date, and a link to the Game view.
+
+**Milestones**: Cluestone could calculate factual milestones without implying that they prove anything. e.g.
+- First recorded game
+- First win
+- 10th, 25th, or 100th game
+- Longest game
+- Shortest game
+- Best recorded win streak
+- One-year deck anniversary
+
+**Notes**: Notes can be placed directly on the timeline, capturing dates and user-entered text. 
+
+When expanding a Node, each item that is part of that date will be available. If there is only one, it will be fully expanded by default. If there is more than event in a given date (node), a summary for each will be listed, along with any notes.
